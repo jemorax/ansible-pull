@@ -1,0 +1,8 @@
+---
+- name: Instalar herramientas esenciales de terminal
+  package:
+    name:
+      - htop
+      - tmux
+      - mc
+    state: present
